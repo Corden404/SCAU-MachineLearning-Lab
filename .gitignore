@@ -1,0 +1,14 @@
+# 数据集
+*.csv
+
+# 生成的图像
+*.png
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 操作系统
+.DS_Store
+Thumbs.db
