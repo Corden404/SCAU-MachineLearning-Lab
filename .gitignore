@@ -12,3 +12,6 @@ __pycache__/
 # 操作系统
 .DS_Store
 Thumbs.db
+
+# 任务说明文件
+**/task.md
