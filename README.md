@@ -1,7 +1,5 @@
 # 模式识别与机器学习 - 课程实验集
 
-本项目包含了华南农业大学“模式识别与机器学习”课程的系列实验代码实现。每个实验文件夹（`exp1` - `exp5`）分别对应不同的机器学习任务，涵盖了回归、分类、特征工程及模型优化等核心内容。
-
 ## 项目结构
 
 ```text
@@ -11,30 +9,10 @@
 ├── exp3/           # 实验三：手写数字识别（K近邻与降维）
 ├── exp4/           # 实验四：共享单车需求预测（支持向量机 SVM）
 ├── exp5/           # 实验五：鸢尾花分类（决策树与缺失值处理）
+├── exp6/           # 实验六：糖尿病预测（随机森林与 XGBoost）
+├── exp7/           # 实验七：街景门牌号识别（卷积神经网络与 PyTorch）
 ├── .gitignore
 └── README.md
 ```
 
-## 实验内容概览
-
-### [exp1] 波士顿房价预测
-- **核心技术**: 线性回归 (Linear Regression), Ridge, Lasso, ElasticNet, 多项式特征。
-- **主要任务**: 数据探索性分析 (EDA), 相关性分析, 模型对比与超参数调优。
-
-### [exp2] 乳腺癌预测
-- **核心技术**: 逻辑回归 (Logistic Regression), 分类评价指标。
-- **主要任务**: 处理不平衡或多维数据, 绘制 ROC 曲线与 PR 曲线, 评估模型性能。
-
-### [exp3] 手写数字识别
-- **核心技术**: K近邻算法 (KNN), 网格搜索 (Grid Search), 混淆矩阵。
-- **主要任务**: 图像数据处理, KNN 参数优化, 模型分类结果可视化。
-
-### [exp4] 共享单车需求预测
-- **核心技术**: 支持向量机 (SVM), 特征工程 (Feature Engineering)。
-- **主要任务**: 探索 SVM 不同核函数（Linear, RBF）的效果, 热力图分析参数对模型性能的影响。
-
-### [exp5] 鸢尾花分类
-- **核心技术**: 决策树 (Decision Tree), 缺失值处理 (Missing Value Imputation)。
-- **主要任务**: 比较不同缺失值填充策略（均值填充、KNN填充等）, 可视化决策树结构。
-
-**依赖库**: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn` 等。
+**依赖库**: `numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `torch`, `torchvision`, `xgboost` 等。
