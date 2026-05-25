@@ -15,3 +15,6 @@ Thumbs.db
 
 # 任务说明文件
 **/task.md
+
+**/outputs
+**/data_svhn_8k
